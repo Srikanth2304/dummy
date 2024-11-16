@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .addCounter_button {
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  .counter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .counter-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding-bottom: 10px; */
+    margin-bottom: 10px;
+  }
+  li {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px; /* Add padding */
+    max-width: 500px; /* Set max width to center content */
+    margin: 0 auto; /* Center the app container horizontally */
+    min-height: 100vh; /* Optional: Remove or adjust if you don't want full viewport height */
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.colour-palette{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.colour-box {
+    width: 50px;
+    height: 50px; 
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.custom{
+    margin-top: 20px;
+}
+.custom{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.custom input:hover{
+    background-color: #555
+    ;
+}
