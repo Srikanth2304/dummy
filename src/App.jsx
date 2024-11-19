@@ -7,6 +7,11 @@ import Sample from './sample'
 import Count from './Count'
 import FormFill from './FormFill'
 import ColourPicker from './ColourPicker'
+import Hook from './hook'
+import Mouse from './Mouse'
+import Parentcomponent from './Parentcomponent'
+
+
 
 function App() {
   // const person = {name: "Alice", age: 21}
@@ -38,7 +43,9 @@ function App() {
       {/* <Sample/> */}
       {/* <Count/> */}
       {/* <FormFill/> */}
-      <ColourPicker/>
+      {/* <ColourPicker/> */}
+      {/* <Hook/> */}
+      <Parentcomponent/>
     </div>  
   );
 }
